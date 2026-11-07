@@ -1,0 +1,10 @@
+[package]
+name = "hadith-rs-isnad-dag-verifier"
+version = "1.0.0"
+edition = "2021"
+description = "Isnad Transmission Chain Directed Acyclic Graph Verifier"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+
+[[bin]]
+name = "hadith_rs_isnad_dag_verifier"
+path = "main.rs"
